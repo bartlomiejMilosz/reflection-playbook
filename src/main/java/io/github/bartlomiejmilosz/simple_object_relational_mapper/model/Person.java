@@ -4,12 +4,12 @@ import io.github.bartlomiejmilosz.simple_object_relational_mapper.annotations.Co
 import io.github.bartlomiejmilosz.simple_object_relational_mapper.annotations.PrimaryKey;
 
 public class Person {
-    @PrimaryKey
-    private long id;
-    @Column
-    private String name;
-    @Column
-    private int age;
+    @PrimaryKey(name="k_id")
+	private long id;
+	@Column(name="c_name")
+	private String name;
+	@Column(name="c_age")
+	private int age;
 
     public Person() {
 
