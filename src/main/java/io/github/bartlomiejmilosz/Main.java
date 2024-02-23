@@ -1,6 +1,6 @@
-package org.example;
+package io.github.bartlomiejmilosz;
 
-import org.example.model.Person;
+import io.github.bartlomiejmilosz.simple_object_relational_mapper.model.Person;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
